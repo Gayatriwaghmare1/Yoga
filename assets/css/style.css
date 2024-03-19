@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav section start */
+nav{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    background-color:#C1F2B0;
+    justify-content: space-between;
+}
+nav img{
+    border-radius: 50%;
+}
+nav img:hover{
+    border: 2px solid green;
+}
+nav a{
+    text-align: center;
+    color: rgb(3, 59, 3);
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a:hover{
+    padding: 5px;
+    background-color: white;
+    border: 2px solid green;
+}
+/* nav section end */
+
+/* banner section start */
+.banner{
+    width: 100%;
+    height: 400px;
+}
+.banner img{
+    float: left;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+.banner h1{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 900;
+    color: rgb(19, 110, 19);
+    text-shadow: 5px 5px lightgreen;
+}
+.banner p{
+    text-align: center;
+    padding: 20px 10%;
+    padding-left: 38%;
+    color: green;
+    font-weight: 600;
+}
+.banner button{
+    margin-left: 34%;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(24, 95, 24);
+    border: 2px solid rgb(8, 46, 8);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(78, 175, 78);
+}
+.banner button:hover{
+    border: 2px solid rgb(47, 155, 47);
+    background-color: rgb(114, 218, 114);
+    color: rgb(17, 77, 17);
+    box-shadow: 5px 5px darkgreen;
+}
+/* banner section end */
+/* choose section start */
+.choose{
+    height: 600px;
+    text-align: center;
+    background-color:#9ADE7B;
+}
+.choose h1{
+    padding-top: 20px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 5px 5px darkgreen;
+}
+.choose h1:hover{
+    color: #ecebdb;
+}
+.choose p{
+    padding:20px 20%;
+    font-weight: 600;
+}
+.choose img{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    justify-content: space-between;
+    border-radius: 50%;
+    border: 2px solid darkgreen;
+    box-shadow: 8px 8px black;
+}
+.choose img:hover{
+    border: 2px solid rgb(41, 168, 41);
+    box-shadow: 8px 8px darkgreen;
+}
+/* choose section end */
+
+/* our state section start  */
+.state{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../img/8.jfif);
+    background-size: 100% 100%; 
+
+}
+.state h1{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(11, 63, 11);
+    text-shadow: 5px 5px rgb(149, 160, 149);
+}
+.state p{
+    padding:20px 20%;
+    text-align: center;
+    font-weight: 700;
+    color: #142418;
+}
+
+.ab {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(146, 174, 184);
+    display: inline-block;
+    margin-right: 20px; 
+    margin-left: 12%;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 60px;
+    border: 2px solid rgb(17, 17, 17);
+    box-shadow: 10px 10px rgb(44, 41, 41);
+}
+.ab:hover{
+    border: 2px solid rgb(32, 131, 38);
+    box-shadow: 10px 10px #135f26;
+    background-color: #9ADE7B;
+}
+.ab span{
+    font-weight: 700;
+    font-size: xx-large;
+}
+/* our state section end  */
+
+/* instrutor section start  */
+.instructor{
+    width: 100%;
+    height: 500px;
+    background-color: #4C4B16;
+    color: #fff;
+}
+.instructor img{
+    height: 500px;
+    width: 50%;
+    float: right;
+}
+.instructor img:hover{
+    border: 2px solid rgb(13, 14, 13);
+}
+.instructor h1{
+    padding: 20px;
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 800;
+}
+.instructor p{
+    padding: 0px 60px;
+    padding-right: 55%;
+    text-align: center;
+    color: #fff;
+}
+.instructor button{
+    padding: 5px 10px;
+    margin-top: 100px;
+    margin: 10px 20%;
+    border-radius: 5px;
+    border: 2px solid #242309; 
+    box-shadow: 7px 7px ;
+}
+.instructor button:hover{
+    border: 2px solid rgb(19, 12, 43);
+    background-color: rgb(15, 79, 138);
+    box-shadow: 7px 7px ghostwhite;
+    color: white;
+}
+/* instrutor section end */
+
+/* experience section start  */
+.experience{
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+}
+.experience img{
+    padding:20px;
+    width: 450px;
+    height: 450px;
+    float: left;
+}
+.experience h1{
+    padding: 20px;
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 800;
+    color: #135f26;
+}
+.experience p{
+        padding: 0px 60px;
+        padding-left: 50%;
+        padding-right: 15%;
+        text-align: center; 
+        color: #135f26;
+}
+.experience button{
+    padding: 5px 10px;
+    margin-top: 100px;
+    margin: 10px 20%;
+    border-radius: 5px;
+    border: 2px solid #242309; 
+    box-shadow: 7px 7px ;
+}
+.experience button:hover{
+    border: 2px solid rgb(19, 12, 43);
+    background-color: rgb(56, 224, 98);
+    box-shadow: 7px 7px rgb(57, 110, 64);
+    color: white;
+}
+
+/* experience section end  */
+
+/* pricing section start  */
+.pricing{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(64, 199, 188);
+
+}
+.pricing h1{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    text-shadow: 5px 5px #265b64;
+}
+.pricing p{
+    margin: 10px 20%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.grid{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50px 50px 50px;
+    gap: 10px;
+    padding: 10px;
+}
+.grid > div{
+    width: 200px;
+    height: 280px;
+    background-color: #d6e4cf;
+    padding: 20px 10px;
+    text-align: center;
+    color: #135f26;
+    font-weight: 700;
+    font-size: larger;
+    box-shadow: 7px 7px darkgreen;
+    border: 2px solid darkgreen;
+}
+.grid >div:hover{
+border: 2px solid rgb(86, 219, 86);
+box-shadow: 5px 5px#428b20;
+}
+.grid >div p{
+    padding-top: 10px;
+    font-size: small;
+    color: #135f26;
+}
+.grid >div>button{
+    padding: 5px;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: 600;
+    box-shadow: 5px 5px darkgreen;
+}
+.grid >div>button:hover{
+    border: 2px solid darkgreen;
+    background-color: #C1F2B0;
+    color: #142418;
+}
+
+/* pricing section end  */
+
+
+/* trainer section start  */
+.trainer{
+    width: 100%;
+    height: 450px;
+    background:linear-gradient(rgba(0,50,0,0.8) ,rgba(33, 109, 33, 0.8)) ,url(../img/3.jfif);
+    background-size: 100% 100%;
+}
+.trainer img{
+    margin: 30px;
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid rgb(33, 92, 18);
+    box-shadow: 5px 5px white;
+    float: left;
+}
+.trainer img:hover{
+    border: 2px solid rgb(46, 190, 82);
+    box-shadow: 5px 5px rgb(58, 141, 42);
+}
+.trainer p{
+    color: white;
+    padding: 0px 15%;
+    padding-top: 15%;
+    padding-left: 40%;
+    text-align: center;
+    font-weight: 700;
+}
+.trainer h3{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+/* trainer  section end */
+/* update section start */
+.update{
+    width: 100%;
+    height: 350px;
+    background-color: #265b64;
+}
+.update h1{
+    padding: 0px 10%;
+    padding-top: 7%;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+.update p{
+    padding: 0px 20%;
+}
+.update input{
+    width: 25%;
+    margin: 0px 35%;
+    border-radius: 20px;
+}
+.update input::placeholder{
+    padding: 5px;
+    float: right;
+    color: #265b64;
+    font-weight: 600;
+}
+.update p{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+/* updatesection end */
+
+/* footer section start  */
+footer{
+    width: 100%;
+    padding-left: 5%;
+    background-color: #b2fa9b;
+}
+footer .column{
+    float: left;
+    width: 25%;
+}
+footer .column h2{
+    color: #265b64;
+    font-weight: 700;
+}
+footer .column li ,p{
+    font-weight: 600;
+    color: #135f26;
+    list-style: none;
+}
+/* footer section end  */
+
